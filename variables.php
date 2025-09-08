@@ -26,7 +26,7 @@
     git parancsok
      git inti:helyi repo incializálás
      git add . :fileok hozzad adása a staging areahoz
-     git commit -m "message" :
+     git commit -m "message" : vált mentés a helyi repon
      git remote add origin https://........... : hozzá rendeljük a helyit a távolihoz
         git config --global user.email "email" 
         git config --global user.name "name" 
