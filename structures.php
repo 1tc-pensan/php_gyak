@@ -50,5 +50,5 @@ foreach ($students as $student)
 {
     echo "<br>$student[name] $student[age]";
 }
-//hf : users tömb ami majd lehetővé teszi az authentikációt
+//hf : users tömb ami majd lehetővé teszi az authentikációt forechhel írd ki
 ?>
