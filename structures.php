@@ -50,5 +50,15 @@ foreach ($students as $student)
 {
     echo "<br>$student[name] $student[age]";
 }
+$users = [
+    "admin" => "admin123",
+    "pista" => "pista2025",
+    "mari"  => "almafa",
+    "jani"  => "1234"
+];
+
+$loginUser = "pista";
+$loginPass = "pista2025";
+
 //hf : users tömb ami majd lehetővé teszi az authentikációt forechhel írd ki
 ?>
