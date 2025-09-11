@@ -60,5 +60,11 @@ $users = [
 $loginUser = "pista";
 $loginPass = "pista2025";
 
-//hf : users tömb ami majd lehetővé teszi az authentikációt forechhel írd ki
+//hf : users tömb ami majd lehetővé teszi az authentikációt forechhel írd kiű
+foreach ($users as $username => $password) {
+    if ($loginUser === $username && $loginPass === $password) {
+        $authenticated = true;
+        break;
+    }
+}
 ?>
